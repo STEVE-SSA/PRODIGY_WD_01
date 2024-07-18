@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Fetish</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <img src="logo.jpg" alt="Food Fetish Logo" class="logo">
+                <span class="company-name">Food Fetish</span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="content">
+                <h1 class="main-title">Welcome to Fruit Fetish</h1>
+                <p class="sec-title">Your one-stop shop for fresh and delicious fruits.</p>
+                <p>Fruit Fetish is dedicated to providing the best fruits from around the world.</p>
+                <a href="#about" class="learn-more-btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="content">
+                <h1 class="about">About Us</h1>
+                <p class="about-p">Welcome to Fruit Fetish - one of the leading fruit basket delivery companies and premier fresh fruit providers of gourmet Fruit Baskets, Gift Towers and Monthly Fruit Clubs in the nation.
+
+                    We offer the world’s finest fresh fruit, much of which is sourced from our own local orchards in Hood River, Oregon – the ideal choice for a birthday gift, a sweet romantic surprise, a celebration of friendship, a holiday remembrance, a business gift, or “just because.”  The Fruit Company® fruit baskets are filled to the brim with outstanding fresh fruit and delicious gourmet delights. Our gift fruit baskets are backed by unrivaled customer service, and a customer-friendly website.  Order now for someone you care about – and enjoy!</p>
+                    
+                    <p class="abpout-last">*We ship anywhere overseas*</p>
+                    <a href="#about" class="learn-more-btn">Learn More</a>
+            </div>
+        </section>
+
+        <section id="products" class="section">
+            <div class="content">
+                <h2 class="product-title">Our Products</h2>
+                <div class="card-slider">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <img src="apple.jpeg" alt="Apple">
+                        <h3>Apple</h3>
+                        <p>$1.99 each lb</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <img src="banana.jpeg" alt="Banana">
+                        <h3>Banana</h3>
+                        <p>$0.79 each lb</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <img src="grapes.jpeg" alt="Cherry">
+                        <h3>Grapes</h3>
+                        <p>$3.49 per lb</p>
+                    </div>
+                    <!-- Add more cards as needed -->
+                    <div class="card">
+                        <img src="orange.jpeg" alt="Orange">
+                        <h3>Orange</h3>
+                        <p>$2.29 each lb</p>
+                    </div>
+                    <!-- Add more cards as needed -->
+                    <div class="card">
+                        <img src="guava.jpeg" alt="Orange">
+                        <h3>Guava</h3>
+                        <p>$3.49 each lb</p>
+                    </div>
+                    <div class="card">
+                        <img src="lychee.jpeg" alt="Orange">
+                        <h3>Lychee</h3>
+                        <p>$6.50 each lb</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="custard apple.jpeg" alt="Orange">
+                        <h3>JackFruit</h3>
+                        <p>$5.55 each lb</p>
+                    </div>
+                    <div class="card">
+                        <img src="cherry.jpeg" alt="Orange">
+                        <h3>Cherry</h3>
+                        <p>$4.89 each lb</p>
+                    </div>
+                </div>
+                <!-- Navigation buttons -->
+                <button class="slider-btn prev-btn" onclick="moveSlider('prev')">❮</button>
+                <button class="slider-btn next-btn" onclick="moveSlider('next')">❯</button>
+            </div>
+        </section>
+        
+
+        <section id="importance" class="section">
+            <div class="content">
+                <h2>Importance of Fruits</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Apple</h3>
+                        <p>Rich in fiber and vitamins.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Banana</h3>
+                        <p>High in potassium.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Grapes</h3>
+                        <p>Rich in vitamins C and K.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Orange</h3>
+                        <p>Excellent source of vitamin C.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Guava</h3>
+                        <p>High in vitamin C and dietary fiber.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Lychee</h3>
+                        <p>Rich in vitamin C and antioxidants.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Jackfruit</h3>
+                        <p>High in fiber and vitamin C.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Cherry</h3>
+                        <p>Contains antioxidants.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <div class="contact-container">
+                    <div class="form-section">
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="get-in-touch">
+                        <h3>Get in Touch</h3>
+                        <p>Email: contact@fruitsfetish.com</p>
+                        <p>Phone: +123 456 7890</p>
+                        <p>Address: 123 Fruit Street, Fruit City, FC 12345</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fruit Fetish. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
